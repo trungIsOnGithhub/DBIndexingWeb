@@ -4,30 +4,12 @@
     justify-content: center;
     flex-direction: column;
 }
-
-svg {
-    padding-left: 10em;
-}
-
-td,tr {
+td,tr,thead {
     text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0 5px;
 }
-
-.cell-t1 {
-    background-color: lightgreen !important;
-}
-
-.cell-t2 {
-    background-color: lightblue !important;
-}
-
-#description {
-    color: lightcoral;
-    font-weight: 600;
-    font-size: 1em;
-    text-align: center;
-}
-
 .card-body {
     display: flex;
     flex-direction: column;
@@ -38,4 +20,18 @@ td,tr {
 }
 .btn-outline-secondary:focus {
     background-color: aquamarine;
+}
+.collapse-info {
+    padding: 6px;
+    margin: 10px 0;
+    font-size: large;
+}
+.collapse-info > * {
+    margin-bottom: 10px;
+}
+.two-img-layout > div {
+    margin-top: 20px;
+}
+.two-img-layout > div > * {
+    text-align: center ;
 }
